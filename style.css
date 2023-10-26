@@ -1,0 +1,64 @@
+.back{
+    width: 100vw;
+    height: 100vh;
+    background-color: #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block{
+    background-color: rgba(0,0,0,0.3);
+    height: 40rem;
+    width: 35rem;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.headingz{
+    padding-top: 3rem;
+    width: 35rem;
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    letter-spacing: .1rem;
+}
+.user-pass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+input{
+    background-color: rgba(0,0,0,0.2) !important;
+    border: none !important;
+    border-radius: 5rem !important;
+}
+.form-floating{
+    margin: 2rem 0;
+}
+.btn1{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5rem;
+    background-color: #bbb;
+    font-size: x-large;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn1:active{
+    margin-top: .2rem;
+}
+.l-btn{
+    margin-top: 5rem;
+}
+.last{
+    position: absolute;
+    bottom: 5rem;
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none !important;
+}
